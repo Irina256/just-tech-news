@@ -1,11 +1,10 @@
 {
-  "name": "newsfeed-api",
+  "name": "hacker-news-clone",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "jest",
-    "start": "node server.js",
     "seeds": "node seeds/index.js"
   },
   "author": "",
@@ -14,10 +13,13 @@
     "bcrypt": "5.0.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.17.1",
+    "handlebars": "^4.7.6",
     "mysql2": "^2.1.0",
     "sequelize": "6.4.0"
   },
   "devDependencies": {
-    "jest": "^25.1.0"
+    "jest": "^25.5.4"
   }
 }
